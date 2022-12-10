@@ -4,7 +4,9 @@ yarn-error.log*
 
 node_modules/
 build/
+coverage/
 
+.vscode/
 .npmrc
 .eslintcache
 .yarn-metadata.json
