@@ -1,5 +1,5 @@
 {
-    "name": "js-query",
+    "name": "js-queries",
     "version": "1.0.0",
     "description": "Queries for JavaScript Array manipulations.",
     "keywords": [
@@ -11,13 +11,13 @@
         "manipulations"
     ],
     "author": "Martik Avagyan <martikavagyan1@gmail.com> (https://github.com/m-avagyan)",
-    "homepage": "https://github.com/m-avagyan/js-query#readme",
+    "homepage": "https://github.com/m-avagyan/js-queries#readme",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/m-avagyan/js-query.git"
+        "url": "git+https://github.com/m-avagyan/js-queries.git"
     },
     "bugs": {
-        "url": "https://github.com/m-avagyan/js-query/issues"
+        "url": "https://github.com/m-avagyan/js-queries/issues"
     },
     "license": "MIT",
     "engines": {

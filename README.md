@@ -1,4 +1,4 @@
-## js-query
+## js-queries
 
 Queries for JavaScript Array manipulations.
 
@@ -6,10 +6,10 @@ Queries for JavaScript Array manipulations.
 
 ```bash
   # using npm
-  npm install js-query
+  npm install js-queries
 
   # using yarn
-  yarn add js-query
+  yarn add js-queries
 ```
 
 ## Methods
@@ -17,9 +17,9 @@ Queries for JavaScript Array manipulations.
 - `find` - find an object from array
 
 ```javascript
-import jsq from 'js-query';
+import jsq from 'js-queries';
 // or
-import { find } from 'js-query';
+import { find } from 'js-queries';
 
 // array -> { [key: string]: any }[]
 // params -> { [key: string]: any }
@@ -38,9 +38,9 @@ const car = jsq.find(cars, { id: 2 }); // { id: 2, color: 'white' }
 - `filter` - filter array of object with object property
 
 ```javascript
-import jsq from 'js-query';
+import jsq from 'js-queries';
 // or
-import { filter } from 'js-query';
+import { filter } from 'js-queries';
 
 // array -> { [key: string]: any }[]
 // params -> { [key: string]: any }
@@ -59,9 +59,9 @@ const filteredCars = jsq.filter(cars, { id: 2 }); // // [{ id: 1, color: 'black'
 - `unique` - remove duplicated elements from array
 
 ```javascript
-import jsq from 'js-query';
+import jsq from 'js-queries';
 // or
-import { unique } from 'js-query';
+import { unique } from 'js-queries';
 
 // array -> any[]
 
@@ -79,9 +79,9 @@ const filteredCars = jsq.unique(cars); // [{ id: 1, color: 'black' }, { id: 2, c
 - `sort` - sort array of object with object property
 
 ```javascript
-import jsq from 'js-query';
+import jsq from 'js-queries';
 // or
-import { sort } from 'js-query';
+import { sort } from 'js-queries';
 
 // array -> { [key: string]: any }[]
 // options -> { key: string, orientation: 'bts' | 'stb' }
