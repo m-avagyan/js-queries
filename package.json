@@ -1,0 +1,40 @@
+{
+    "name": "js-query",
+    "version": "1.0.0",
+    "description": "Queries for JavaScript Array manipulations.",
+    "keywords": [
+        "javascript",
+        "typescript",
+        "queries",
+        "arrays",
+        "methods",
+        "manipulations"
+    ],
+    "author": "Martik Avagyan <martikavagyan1@gmail.com> (https://github.com/m-avagyan)",
+    "homepage": "https://github.com/m-avagyan/js-query#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/m-avagyan/js-query.git"
+    },
+    "bugs": {
+        "url": "https://github.com/m-avagyan/js-query/issues"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=8.0.0",
+        "npm": ">=6.0.0",
+        "yarn": ">=1.0.0"
+    },
+    "main": "build/index.js",
+    "types": "build/index.d.ts",
+    "files": [
+        "build"
+    ],
+    "scripts": {
+        "build": "rm -rf build && tsc",
+        "build:watch": "rm -rf build && tsc -w"
+    },
+    "devDependencies": {
+        "typescript": "^4.8.3"
+    }
+}
