@@ -4,12 +4,12 @@ type TypeArray = {
 
 type TypeOptions = {
   key: string;
-  orientation?: 'bts' | 'stb';
+  orientation?: "bts" | "stb";
 };
 
 function sort(array: TypeArray, { key, orientation }: TypeOptions): TypeArray {
   return array.sort((a, b) => {
-    if (orientation === 'bts') {
+    if (orientation === "bts") {
       return b[key] - a[key];
     }
 

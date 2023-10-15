@@ -1,7 +1,7 @@
-import unique from '../functions/unique';
+import unique from "../functions/unique";
 
-describe('jsq unique method tests', () => {
-  it('Should filter duplicated elements from array.', () => {
+describe("jsq unique method tests", () => {
+  it("Should filter duplicated elements from array.", () => {
     const array = [{ id: 1 }, { id: 2 }, { id: 2 }, { id: 3 }];
     const expected = [{ id: 1 }, { id: 2 }, { id: 3 }];
 

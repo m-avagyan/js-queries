@@ -1,7 +1,7 @@
-import find from './functions/find';
-import filter from './functions/filter';
-import unique from './functions/unique';
-import sort from './functions/sort';
+import find from "./functions/find";
+import filter from "./functions/filter";
+import unique from "./functions/unique";
+import sort from "./functions/sort";
 
 const jsq = {
   find,
